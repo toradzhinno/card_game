@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'StratosSkyeng';
+    src: url(./statosskyeng-v1.001/fonts/stratosskyengweb-regular.woff2) format('woff2');
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(0, 73, 128, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.desk {
+    background-color: rgba(194, 245, 255, 1);
+    width: 480px;
+    height: 459px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title {
+    width: 208px;
+    text-align: center;
+    font-family: StratosSkyeng;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    color: rgba(0, 73, 128, 1);
+
+}
+
+.level-numbers {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    margin-top: 48px;
+    margin-bottom: 68px;
+}
+
+.level-number {
+    width: 98px;
+    height: 98px;
+    background-color: #fff;
+    border-radius: 12px;
+    font-family: StratosSkyeng;
+    font-weight: 400;
+    font-size: 64px;
+    text-align: center;
+    border-color: transparent;
+    color: rgba(0, 128, 193, 1);
+}
+
+.start-btn {
+    width: 246px;
+    height: 50px;
+    background-color: rgba(122, 193, 0, 1);
+    border-radius: 12px;
+    font-family: StratosSkyeng;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #fff;
+    border-color: transparent;
+}
