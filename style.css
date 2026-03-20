@@ -72,3 +72,8 @@ body {
     color: #fff;
     border-color: transparent;
 }
+
+
+.hide {
+    display: none;
+}
