@@ -56,20 +56,20 @@ body {
     font-size: 64px;
     text-align: center;
     border-color: transparent;
-    color: rgba(0, 128, 193, 1);
+    color: #0080c1;
 }
 
 .start-btn {
     width: 246px;
     height: 50px;
-    background-color: rgba(122, 193, 0, 1);
+    background-color: #7ac100;
     border-radius: 12px;
     font-family: StratosSkyeng;
     font-weight: 400;
     font-size: 24px;
     line-height: 32px;
     text-align: center;
-    color: #fff;
+    color: white;
     border-color: transparent;
 }
 
