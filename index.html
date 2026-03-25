@@ -1,29 +1,38 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body>
+  <body>
     <div class="desk">
-        <h2 class="title">Выбери сложность</h2>
-        <div class="level-numbers">
-            <button class="level-number">1</button>
-            <button class="level-number">2</button>
-            <button class="level-number">3</button>
-        </div>
-        <button class="start-btn">Старт</button>
+      <h2 class="title">Выбери сложность</h2>
+      <div class="level-numbers">
+        <button class="level-number">1</button>
+        <button class="level-number">2</button>
+        <button class="level-number">3</button>
+      </div>
+      <button class="start-btn btn">Старт</button>
     </div>
 
     <div class="game hide">
-        <h1>Игра началась</h1>
+      <div class="game__head">
+        <div class="game__head-timer">
+          <p class="name-of-time name-of-time-min">min</p>
+          <p class="name-of-time name-of-time-sec">sek</p>
+          <h2 class="time-of-time">00.00</h2>
+        </div>
+        <button class="again-btn btn">Начать заново</button>
+      </div>
+
+      <div class="game__field">
+        <div class="game__field-card"></div>
+      </div>
     </div>
 
     <script src="./script.js"></script>
-</body>
-
+  </body>
 </html>

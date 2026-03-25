@@ -59,7 +59,7 @@ body {
     color: #0080c1;
 }
 
-.start-btn {
+.btn {
     width: 246px;
     height: 50px;
     background-color: #7ac100;
@@ -73,6 +73,66 @@ body {
     border-color: transparent;
 }
 
+.game {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    margin: 52px 23px auto 23px;
+    justify-content: start;
+    align-items: start;
+}
+
+.game__head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 578px;
+}
+
+.game__head-timer {
+    width: 155;
+    height: 91;
+    color: #fff;
+    font-family: StratosSkyeng;
+    position: relative;
+}
+
+.name-of-time {
+    position: absolute;
+    font-weight: 400;
+    font-size: 16px;
+    height: 32px;
+}
+
+.name-of-time-min {
+    left: 39px;
+    top: -10px;
+}
+
+.name-of-time-sec {
+    left: 124px;
+    top: -10px;
+}
+
+.time-of-time {
+    font-weight: 400;
+    font-size: 64px;
+}
+
+.game__field {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.game__field-card {
+    width: 95px;
+    height: 133px;
+}
 
 .hide {
     display: none;
